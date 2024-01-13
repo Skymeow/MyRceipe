@@ -8,7 +8,7 @@
 import Foundation
 
 protocol NetworkServiceProtocol: Sendable {
-  func fetchDessert() async -> Result<Meals, NetworkService.NetworkServiceError>
+  func fetchData<T: Codable>(endpoint: Endpoints) async -> Result<T,NetworkService.NetworkServiceError>
 }
 
 final class NetworkService: NetworkServiceProtocol {
@@ -16,15 +16,16 @@ final class NetworkService: NetworkServiceProtocol {
     case urlNotValid
     case unableToDecode
     case backendServiceError
+    case emptyData
   }
 
-  func fetchDessert() async -> Result<Meals, NetworkService.NetworkServiceError> {
-    guard let url = URL(string: Endpoints.dessert.rawValue) else { return .failure(.urlNotValid) }
+  func fetchData<T: Codable>(endpoint: Endpoints) async -> Result<T,NetworkService.NetworkServiceError> {
+    guard let urlRequest = endpoint.createUrlRequest() else { return .failure(.urlNotValid) }
     do {
-      let (data, _) = try await URLSession.shared.data(for: URLRequest(url: url))
+      let (data, _) = try await URLSession.shared.data(for: urlRequest)
       do {
-        let meals = try JSONDecoder().decode(Meals.self, from: data)
-        return .success(meals)
+        let decoded = try JSONDecoder().decode(T.self, from: data)
+        return .success(decoded)
       } catch {
         print(error)
         return .failure(.unableToDecode)

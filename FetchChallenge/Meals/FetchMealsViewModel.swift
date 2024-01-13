@@ -14,7 +14,7 @@ class FetchMealsViewModel: ObservableObject {
       static let message = "Please try again later"
   }
 
-  enum DataState {
+  enum FetchMealDataState {
     case succeed
     case failure
     case inprogress
@@ -23,8 +23,11 @@ class FetchMealsViewModel: ObservableObject {
 
   private let servic: NetworkServiceProtocol
   @Published var meals: [Meal] = []
-  @Published var dataState: DataState = .initial
+  @Published var dataState: FetchMealDataState = .initial
   @Published var alertViewModel: AlertViewModel? = nil
+  @Published var isFirstAppear: Bool = true
+  @Published var details: MealDetail? = nil
+  
 
   init(servic: NetworkServiceProtocol = NetworkService()) {
     self.servic = servic
@@ -33,11 +36,12 @@ class FetchMealsViewModel: ObservableObject {
   @MainActor
   func loadMeals() async {
     dataState = .inprogress
-    let result = await servic.fetchDessert()
+    let result: Result<Meals, NetworkService.NetworkServiceError> = await servic.fetchData(endpoint: .dessert)
     switch result {
     case .success(let meals):
       self.meals = meals.meals
       dataState = .succeed
+      isFirstAppear = false
     case .failure:
       dataState = .failure
       alertViewModel = .init(title: FetchMealsViewModel.ErrorMessageConst.title, message:  FetchMealsViewModel.ErrorMessageConst.message, onDismiss: {

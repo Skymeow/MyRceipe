@@ -18,6 +18,12 @@
 		33CAC6AB2B4D0EA3007BD7FE /* AlertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAC6AA2B4D0EA3007BD7FE /* AlertViewModel.swift */; };
 		33CAC6AE2B4D0F07007BD7FE /* FullScreenClearBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAC6AD2B4D0F07007BD7FE /* FullScreenClearBackgroundView.swift */; };
 		33CAC6B12B4D1055007BD7FE /* DetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAC6B02B4D1055007BD7FE /* DetailContentView.swift */; };
+		33CAC6B42B4D111D007BD7FE /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAC6B32B4D111D007BD7FE /* MealDetail.swift */; };
+		33CAC6B82B4D23A8007BD7FE /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAC6B72B4D23A8007BD7FE /* Navigator.swift */; };
+		33CAC6BB2B4D23C9007BD7FE /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAC6BA2B4D23C9007BD7FE /* Destination.swift */; };
+		33CAC6D02B525015007BD7FE /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAC6CF2B525015007BD7FE /* ListCell.swift */; };
+		33CAC6D22B5267A2007BD7FE /* ListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAC6D12B5267A2007BD7FE /* ListCellViewModel.swift */; };
+		33CAC6D42B526D2D007BD7FE /* YoutubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAC6D32B526D2D007BD7FE /* YoutubeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +39,13 @@
 		33CAC6AA2B4D0EA3007BD7FE /* AlertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewModel.swift; sourceTree = "<group>"; };
 		33CAC6AD2B4D0F07007BD7FE /* FullScreenClearBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenClearBackgroundView.swift; sourceTree = "<group>"; };
 		33CAC6B02B4D1055007BD7FE /* DetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContentView.swift; sourceTree = "<group>"; };
+		33CAC6B32B4D111D007BD7FE /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
+		33CAC6B72B4D23A8007BD7FE /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		33CAC6BA2B4D23C9007BD7FE /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		33CAC6CF2B525015007BD7FE /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		33CAC6D12B5267A2007BD7FE /* ListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellViewModel.swift; sourceTree = "<group>"; };
+		33CAC6D32B526D2D007BD7FE /* YoutubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeView.swift; sourceTree = "<group>"; };
+		33CAC6D72B526EB9007BD7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +78,11 @@
 		33CAC6912B4C06A5007BD7FE /* FetchChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				33CAC6D72B526EB9007BD7FE /* Info.plist */,
 				33CAC6922B4C06A5007BD7FE /* FetchChallengeApp.swift */,
 				33CAC6B22B4D105C007BD7FE /* Details */,
 				33CAC6AF2B4D1035007BD7FE /* Meals */,
+				33CAC6B92B4D23B4007BD7FE /* Navigation */,
 				33CAC6AC2B4D0EA9007BD7FE /* UIHelper */,
 				33CAC6A72B4C09C1007BD7FE /* DataModel */,
 				33CAC6A42B4C0895007BD7FE /* Service */,
@@ -98,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				33CAC6A52B4C08F7007BD7FE /* Meals.swift */,
+				33CAC6B32B4D111D007BD7FE /* MealDetail.swift */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -124,8 +140,20 @@
 			isa = PBXGroup;
 			children = (
 				33CAC6B02B4D1055007BD7FE /* DetailContentView.swift */,
+				33CAC6CF2B525015007BD7FE /* ListCell.swift */,
+				33CAC6D12B5267A2007BD7FE /* ListCellViewModel.swift */,
+				33CAC6D32B526D2D007BD7FE /* YoutubeView.swift */,
 			);
 			path = Details;
+			sourceTree = "<group>";
+		};
+		33CAC6B92B4D23B4007BD7FE /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				33CAC6B72B4D23A8007BD7FE /* Navigator.swift */,
+				33CAC6BA2B4D23C9007BD7FE /* Destination.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,13 +226,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33CAC6D22B5267A2007BD7FE /* ListCellViewModel.swift in Sources */,
+				33CAC6D42B526D2D007BD7FE /* YoutubeView.swift in Sources */,
 				33CAC6A62B4C08F7007BD7FE /* Meals.swift in Sources */,
 				33CAC6952B4C06A5007BD7FE /* MealsContentView.swift in Sources */,
+				33CAC6BB2B4D23C9007BD7FE /* Destination.swift in Sources */,
 				33CAC6A12B4C0849007BD7FE /* Endpoints.swift in Sources */,
 				33CAC6AE2B4D0F07007BD7FE /* FullScreenClearBackgroundView.swift in Sources */,
+				33CAC6D02B525015007BD7FE /* ListCell.swift in Sources */,
 				33CAC6AB2B4D0EA3007BD7FE /* AlertViewModel.swift in Sources */,
+				33CAC6B82B4D23A8007BD7FE /* Navigator.swift in Sources */,
 				33CAC6B12B4D1055007BD7FE /* DetailContentView.swift in Sources */,
 				33CAC6A32B4C088B007BD7FE /* NetworkService.swift in Sources */,
+				33CAC6B42B4D111D007BD7FE /* MealDetail.swift in Sources */,
 				33CAC6A92B4D067E007BD7FE /* FetchMealsViewModel.swift in Sources */,
 				33CAC6932B4C06A5007BD7FE /* FetchChallengeApp.swift in Sources */,
 			);
@@ -342,6 +376,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FetchChallenge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FetchChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -370,6 +405,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FetchChallenge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FetchChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C5351FA6-2006-4CD8-8206-86710E862643"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39B3301A-15ED-4069-8370-A2FA757E7726"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FetchChallenge/ListCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2D2D284-0076-4D2E-9D90-77CD363B4FAF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FetchChallenge/ListCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E2D2D284-0076-4D2E-9D90-77CD363B4FAF - 616f9811af3c6ce2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Button&lt;&lt;&lt;opaque return type of FetchChallenge.ListCell.rowBody(title: Swift.String, imageUrl: Swift.Optional&lt;Foundation.URL&gt;) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Divider)&gt; in FetchChallenge.ListCell.body.getter : some"
+                  moduleName = "FetchChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TakeHome/FetchChallenge/FetchChallenge/ListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "E2D2D284-0076-4D2E-9D90-77CD363B4FAF - 37aebc77ae926ac3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Button&lt;&lt;&lt;opaque return type of FetchChallenge.ListCell.rowBody(title: Swift.String, imageUrl: Swift.Optional&lt;Foundation.URL&gt;) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Divider)&gt; in FetchChallenge.ListCell.body.getter : some"
+                  moduleName = "FetchChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TakeHome/FetchChallenge/FetchChallenge/ListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "E2D2D284-0076-4D2E-9D90-77CD363B4FAF - fef9747d31e520e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Button&lt;&lt;&lt;opaque return type of FetchChallenge.ListCell.rowBody(title: Swift.String, imageUrl: Swift.Optional&lt;Foundation.URL&gt;) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Divider)&gt; in FetchChallenge.ListCell.body.getter : some"
+                  moduleName = "FetchChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TakeHome/FetchChallenge/FetchChallenge/ListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A7E9AEF-F6E5-4D9A-96B5-0EC88D7AB0B9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FetchChallenge/Details/ListCellViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "loadDetail(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8A7E9AEF-F6E5-4D9A-96B5-0EC88D7AB0B9 - c7d972c435da731c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for FetchChallenge.ListCellViewModel.loadDetail(id: Swift.String) async -&gt; ()"
+                  moduleName = "FetchChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TakeHome/FetchChallenge/FetchChallenge/Details/ListCellViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "8A7E9AEF-F6E5-4D9A-96B5-0EC88D7AB0B9 - 9b0dfc5c87659ef1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for FetchChallenge.ListCellViewModel.loadDetail(id: Swift.String) async -&gt; ()"
+                  moduleName = "FetchChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TakeHome/FetchChallenge/FetchChallenge/Details/ListCellViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "8A7E9AEF-F6E5-4D9A-96B5-0EC88D7AB0B9 - e629a2b7e3813f02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for FetchChallenge.ListCellViewModel.loadDetail(id: Swift.String) async -&gt; ()"
+                  moduleName = "FetchChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TakeHome/FetchChallenge/FetchChallenge/Details/ListCellViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AB829CC-9E53-4BDA-9A0F-0CE12C8C6965"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FetchChallenge/Details/ListCellViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "loadDetail(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6AB829CC-9E53-4BDA-9A0F-0CE12C8C6965 - c7d972c435da731c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for FetchChallenge.ListCellViewModel.loadDetail(id: Swift.String) async -&gt; ()"
+                  moduleName = "FetchChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TakeHome/FetchChallenge/FetchChallenge/Details/ListCellViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "6AB829CC-9E53-4BDA-9A0F-0CE12C8C6965 - 9b0dfc5c87659ef1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for FetchChallenge.ListCellViewModel.loadDetail(id: Swift.String) async -&gt; ()"
+                  moduleName = "FetchChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TakeHome/FetchChallenge/FetchChallenge/Details/ListCellViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "6AB829CC-9E53-4BDA-9A0F-0CE12C8C6965 - e629a2b7e3813f02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for FetchChallenge.ListCellViewModel.loadDetail(id: Swift.String) async -&gt; ()"
+                  moduleName = "FetchChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TakeHome/FetchChallenge/FetchChallenge/Details/ListCellViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
